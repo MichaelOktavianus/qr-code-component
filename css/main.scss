@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family:'Outfit', sans-serif;
+}
+.container {
+    width: 20em;
+    height: 30em;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5em;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+.hero-img {
+    width: 18em;
+    height: 18em;
+    border-radius: 0.7em;
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+    background-image: url("/images/image-qr-code.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h2 {
+    margin-bottom: 0.7em;
+    text-indent: 7px;
+    color: hsl(218, 44%, 22%);
+    font-size: 21px;
+    font-weight: 700;
+}
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+.main-p {
+    font-weight: 400;
+    text-indent: 5px ;
+    
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width : 980px) {
+    .container {
+        margin-top: 12em;
+    }
+    .attribution { 
+        margin-bottom: 12em; 
+    }
+}

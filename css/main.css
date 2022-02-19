@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d6e2f0;
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  width: 20em;
+  height: 30em;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 1.5em;
+  margin-top: 5em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+}
+
+.hero-img {
+  width: 18em;
+  height: 18em;
+  border-radius: 0.7em;
+  margin-top: -0.5em;
+  margin-bottom: 1.5em;
+  background-image: url("/images/image-qr-code.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h2 {
+  margin-bottom: 0.7em;
+  text-indent: 7px;
+  color: #1f3251;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+p {
+  color: #7b879d;
+  font-size: 15px;
+}
+
+.main-p {
+  font-weight: 400;
+  text-indent: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 980px) {
+  .container {
+    margin-top: 12em;
+  }
+  .attribution {
+    margin-bottom: 12em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
