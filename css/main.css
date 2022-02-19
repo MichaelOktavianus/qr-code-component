@@ -50,10 +50,6 @@ body {
   border-radius: 0.7em;
   margin-top: -0.5em;
   margin-bottom: 1.5em;
-  background-image: url("/images/image-qr-code.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 h2 {
